@@ -451,6 +451,10 @@ SMODS.Attribute({
 })
 
 SMODS.Attribute({
+    key = 'stickers'
+})
+
+SMODS.Attribute({
     key = 'tag',
     keys = { 'j_diet_cola' }
 })
@@ -503,13 +507,23 @@ SMODS.Attribute({
 
 SMODS.Attribute({
     key = 'consumeable',
-    alias = {'consumable'},
     keys = {
         'j_perkeo', 'j_astronomer', 'j_constellation', 'j_satellite', 'j_8_ball', 'j_superposition', 
         'j_vagabond', 'j_hallucination', 'j_fortune_teller', 'j_cartomancer', 'j_sixth_sense', 'j_seance',
     }
 })
+
 SMODS.Attribute({
     key = 'consumeable_slot',
-    alias = {'consumable_slot'},
+})
+
+SMODS.Attribute({
+    key = 'debuff'
+})
+
+SMODS.Attribute({
+    key = 'position'
+    keys = {
+        'j_blueprint', 'j_ceremonial', 'j_brainstorm', 'j_hanging_chad', 'j_photograph',
+    }
 })
