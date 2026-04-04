@@ -501,12 +501,6 @@ SMODS.Attribute({
     }
 })
 
-SMODS.Attribute {
-    key = "destroy_self",
-    keys = {
-    "j_mr_bones", 'j_gros_michel', 'j_cavendish', 'j_ice_cream', 'j_ramen', 'j_turtle_bean', 'j_popcorn', 'j_selzer',
-    },
-}
 SMODS.Attribute({
     key = 'consumeable',
     alias = {'consumable'},
