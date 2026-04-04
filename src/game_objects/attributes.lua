@@ -500,3 +500,22 @@ SMODS.Attribute({
         'j_hiker'
     }
 })
+
+SMODS.Attribute {
+    key = "destroy_self",
+    keys = {
+    "j_mr_bones", 'j_gros_michel', 'j_cavendish', 'j_ice_cream', 'j_ramen', 'j_turtle_bean', 'j_popcorn', 'j_selzer',
+    },
+}
+SMODS.Attribute({
+    key = 'consumeable',
+    alias = {'consumable'},
+    keys = {
+        'j_perkeo', 'j_astronomer', 'j_constellation', 'j_satellite', 'j_8_ball', 'j_superposition', 
+        'j_vagabond', 'j_hallucination', 'j_fortune_teller', 'j_cartomancer', 'j_sixth_sense', 'j_seance',
+    }
+})
+SMODS.Attribute({
+    key = 'consumeable_slot',
+    alias = {'consumable_slot'},
+})
